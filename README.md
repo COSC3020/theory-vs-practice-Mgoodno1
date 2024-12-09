@@ -5,9 +5,9 @@
   
   1. Real world conditions/ algorithm implementation: Asymptotic analysis focuses on the growth rate of an algorithm and its performance as the input size increases. However it normally does not account for pratical implementation details that can arise in real world conditions so it does not factor in potential inefficiencies that may arise in these scenarios. For example, an algorithm can be influenced by factors like cache behavior or actual input distribution which are often not captured in asymptotic analysis. Which could cause a theoretically worse asymptotic complexity to outperform another with a much better complexity due to optimizations or favorable conditions.
 
-  4. Hidden Constants/ Lower-Order terms: Typically Asymptotic analysis ignores these which can play an important part in actual peformance causing it to be slower.
+  2. Hidden Constants/ Lower-Order terms: Typically Asymptotic analysis ignores these which can play an important part in actual peformance causing it to be slower.
 
-  5. Hardware factors: Factors like CPU cache behavior, memory access patterns, and paralleism can affect performance of an algorithm, but Asymptotic analysis does not account for them. Causing problems within predictions and performance.
+  3.Hardware factors: Factors like CPU cache behavior, memory access patterns, and paralleism can affect performance of an algorithm, but Asymptotic analysis does not account for them. Causing problems within predictions and performance.
 
 - Suppose finding a particular element in a binary search tree with 1,000
   elements takes 5 seconds. Given what you know about the asymptotic complexity
